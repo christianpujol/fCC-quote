@@ -1,0 +1,20 @@
+.quote-box {
+  max-width: 650px;
+  margin-top: 70px;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.btn {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+footer {
+  margin: 0 40px 0 0;
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 100%
+}

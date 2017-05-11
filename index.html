@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Christian Pujol">
+  <link rel="icon" type="image/jpeg" href="/img/nagada.jpg">
+  <meta name="description" content="Random Quote Machine: get a random quote ">
+  <title>naga.no | fCC | Random Quote Machine</title>
+
+
+
+
+  <script src="https://use.fontawesome.com/a0e523aa26.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="./getquote.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body lang="en">
+
+  <div class="container">
+    <div class="well rounded center-block quote-box">
+      <div class="row text-center">
+        <span class="text-right col-md-6">
+          <button  id="newquote" class="btn btn-lg btn-primary rounded" >
+           <span class="fa fa-refresh "></span> Get a Quote!!
+        </button>
+        </span>
+        <span class="text-left col-md-6  ">
+          <button id="tweety"  class="btn btn-lg btn-info rounded ">
+             Tweet it ! <span class="fa fa-twitter "></span>
+        </button>
+        </span>
+      </div>
+
+      <div class="rounded bg-info">
+        <blockquote class="blockquote-reverse">
+          <p id="quote">
+            This is a Random Quote Generator build in relation with
+            <a href="http://www.freecodecamp.com">
+              <span class="mono">freeCodeCamp</span><i class="fa fa-free-code-camp"></i>
+            </a>.<br> Click on the buttons to get a new quote or tweet the current one.
+          </p>
+          <footer id="quoteFooter">Christian</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <small>
+    by
+    <a class="rounded" href="https://no.linkedin.com/in/christianpujol" target="_blank">
+      Christian Pujol 
+    </a>
+     for <a href="https://freecodecamp">freeCodeCamp</a>.</br>
+     You will find the source code on
+     <a  href="https://github.com/pujolchr/fCC-quote" target="_blank">GitHub</a>
+     and 
+     <a  href="https://codepen.io/nagadagum/pen/GjLAZa" target="_blank">codePen</a>
+    </small>
+  </footer>
+
+</body>
+
+</html>
