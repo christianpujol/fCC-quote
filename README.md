@@ -10,6 +10,6 @@
  - [X] You can get feedback on your project by sharing it with your friends on Facebook.
 
 ## 
- * code source: https://github.com/pujolchr/fCC-quote
- * live: https://pujolchr.github.io/fCC-quote/
+ * code source: https://github.com/christianpujol/fCC-quote
+ * live: https://getaquote.glitch.me/
 

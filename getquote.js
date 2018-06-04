@@ -14,7 +14,4 @@ $(document).ready(() => {
         $('#tweet-quote').attr("href", url + tweet)
       });
   });
-
-  // Tweet the actual quote
-
 });
